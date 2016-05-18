@@ -1,0 +1,257 @@
+@viewport {
+    width: device-width;
+}
+
+@font-face{
+	font-family:adam;
+	src:url(./font/Adam.otf);
+}
+
+@font-face{
+	font-family:secretcode;
+	src:url(./font/secrcode.otf);
+
+}
+
+@font-face{
+	font-family:aku;
+	src:url(./font/Aku.otf);
+}
+
+@font-face{
+	font-family:geosans;
+	src:url(./font/GeosansLight.ttf);
+}
+
+@font-face{
+	font-family:mont;
+	src:url(./font/Montserrat.otf);
+}
+
+html, body{
+	position: relative;
+	height:100%; 
+	margin:0;
+	padding:0;
+	font-family:geosans;
+}
+
+
+
+
+/*navbar*/
+.logo {
+	max-height:45px; 
+	position: relative;  
+	top: 50%; 
+	transform: translateY(-50%);
+}
+
+.navbar {
+	position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.navbar-firstnav {
+	float:none;
+	margin:0 auto;
+	text-align: center;
+	font-family:adam;
+	font-size:1.4em;
+}
+
+.navbar-firstnav>li {
+	display: inline-block;
+	float:none;
+	padding-top:10px;
+}
+
+.navbar-firstnav>li>a{
+	color:#dfdfdf;
+}
+
+.navbar-transparent ul a:hover{
+	background-color:transparent;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-shadow: 0 0 5px white;
+}
+.navbar-transparent ul a:focus{
+    background-color:transparent;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow:none;
+    text-shadow: 0 0 5px white;
+}
+
+.navbar-transparent ul a:active{
+    background-color:transparent;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow:none;
+    text-shadow: 0 0 5px white;
+}
+
+
+/*Jumbotron*/
+.jumbotron{
+	height:100vh;
+	background:url('./Images/Jumbo.jpg') no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	width:100%;
+	top:0;
+	z-index:-100;
+	display:flex;
+    display-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+}
+
+h1{
+	line-height:0;
+}
+h1 .first{
+	color:white;
+	font-family:secretcode;
+	font-size:2em;
+}
+
+h1 .last{
+	color: #bd902e;
+	font-family:aku;
+	font-size:1.7em;
+}
+
+.jumbotron #respon{
+	color:white;
+	font-size:4em;
+}
+
+.jumbotron #langs{
+	color:#bd902e;
+	font-size:2em;
+	line-height:0;
+}
+
+/*Portfolio*/
+
+.portfoliosection{
+	background: url(./Images/portfolio.jpg) no-repeat;
+	background-size:cover;
+	overflow:auto;
+	background-attachment: fixed;
+}
+
+.portfoliosection h2{
+	font-family:mont;
+	color: #a66f4e;
+}
+
+.portfoliosection .col-md-4, .col-sm-6, .col-xs-6 {
+	padding:0;
+}
+
+.portfoliosection a{
+	text-decoration: none;
+	font-family:mont;
+	color:#da8484;
+	font-size:1em;
+}
+
+.portfoliosection p{
+	margin-top:1em;
+}
+
+.portfoliosection img{
+  -webkit-transition: -webkit-filter 0.5s linear;
+    -moz-transition: -webkit-filter 0.5s linear;
+    -o-transition: -webkit-filter 0.5s linear;
+    -ms-transition: -webkit-filter 0.5s linear;
+    transition: -webkit-filter 0.5s linear;
+}
+
+
+.portfoliosection img:hover{
+	-webkit-filter:blur(4px);
+	filter: blur(5px);
+}
+
+/*about*/
+
+.aboutsection{
+	overflow:hidden;
+}
+.aboutsection .firsthalf{
+	background:url(./Images/about.jpg) no-repeat center center;
+	background-size:cover;
+	min-height:500px;
+}
+
+.firsthalf p{
+	color:white;
+	font-size:3em;
+	position:absolute;
+	top:40%;
+}
+
+.secondhalf h2{
+	font-family:mont;
+	color: #bd902e;
+}
+
+.secondhalf p{
+	margin: 5%;
+	font-size:2em;
+}
+
+/*Footer*/
+
+.footer{
+	background-color:#222222;
+}
+
+
+.footer p{
+	color:#e4e4e4;
+	font-size: 1.175em;
+}
+
+.footer .container i{
+	font-size:2em;
+	color:#e4e4e4;
+}
+
+.emailaddress{
+	float:right;
+}
+
+.my-icon{
+	float:left;
+	padding-right:5px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	
+	.navbar-nav{
+		display:table;
+		width:100%;
+		margin:0;
+	}
+
+	.navbar-nav > li{
+		float:none;
+		display:table-cell;
+		text-align:center;
+	}
+}
