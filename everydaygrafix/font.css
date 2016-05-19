@@ -1,0 +1,13 @@
+@font-face{
+font-family:'Shift';
+font-style:normal;
+font-weight:normal;
+src: url("/Font/shift.woff");
+}
+
+@font-face{
+font-family:'Shift';
+font-style:normal;
+font-weight:bold;
+src: url("/Font/shift-bold.woff");
+}

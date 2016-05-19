@@ -1,0 +1,110 @@
+.nav a{
+color:#5a5a5a;
+font-size:11px;
+font-weight:bold;
+padding-top:20px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+text-transform:uppercase;
+}
+
+
+
+.jumbotron{
+height:500px;
+background-image: url('Images/jumbo.jpeg');
+background-size:cover;
+background-attachment:fixed;
+}
+
+.jumbotron h1{
+color:#FFFFFF;
+font-size:48px;
+font-weight:bold;
+font-family:'Shift',sans-serif;
+}
+
+.jumbotron p{
+color:#FFFFFF;
+font-size:20px;
+}
+
+.jumbotron .container{
+position:relative;
+top:100px;
+}
+
+.tick {
+background-color:#efefef;
+border-top:1px solid #dbdbdb;
+}
+
+.examples{
+background-color:#efefef;
+border-bottom: 1px solid #dbdbdb;
+}
+
+.tick h3{
+font-family:'Shift', sans-serif;
+font-size:18px;
+font-weight:bold;
+display: inline-block;
+}
+
+.nav li{
+display:inline;
+}
+
+.nav .logo{
+position: relative;
+top: 7px;
+}
+
+.Products img{
+max-width:300px;
+max-height:400px;
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+.Item2{
+border-top: 1px solid #dbdbdb;
+background-color:#efefef;
+}
+
+
+.Item4{
+border-top: 1px solid #dbdbdb;
+background-color:#efefef;
+}
+
+
+.Item6{
+border-top: 1px solid #dbdbdb;
+background-color:#efefef;
+border-bottom: 1px solid #dbdbdb;
+}
+
+.Item3{
+border-top: 1px solid #dbdbdb;
+}
+
+.Item5{
+border-top: 1px solid #dbdbdb;
+}
+
+.copyright h4{
+font-family:'Shift', sans-serif;
+font-size: 14px;
+float:right;
+padding-right: 20px;
+color: #dbdbdb;
+}
+
+.examples .container h2{
+color: #dbdbdb;
+}
