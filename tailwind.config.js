@@ -5,10 +5,14 @@ module.exports = {
     colors: {
       white: '#FFF',
       black: '#030c17',
-      blue: '#030c17',
+      blue: '#072141',
       pink: '#ff4d5a'
     },
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'earth-map': "url('./images/map.png')",
+      })
+    },
   },
   variants: {
     extend: {},

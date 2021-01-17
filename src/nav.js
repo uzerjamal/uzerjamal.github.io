@@ -2,8 +2,8 @@ import './style/tailwind.css';
 
 function Nav(){
     return(
-        <div>
-            <header class="min-w-full px-8 h-16 bg-black flex justify-between items-center">
+        <div class='z-50'>
+            <header class="min-w-full px-8 h-16 bg-transparent flex justify-between items-center fixed">
                 <div>
                     <span class='text-2xl font-extrabold text-white hover:text-pink transition bg-pink px-2 hover:bg-white'>UZER.</span>
                 </div>
