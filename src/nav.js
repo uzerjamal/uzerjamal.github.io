@@ -12,6 +12,8 @@ function Nav(){
                         <a href="#" class="hover:text-pink transition px-2">ABOUT</a>
                         <a href="#" class="hover:text-pink transition px-2">SKILLS</a>
                         <a href="#" class="hover:text-pink transition px-2">PROJECTS</a>
+                        <a href="#" class="hover:text-pink transition px-2">CONTACT</a>
+                        <a href="#" class="hover:text-pink transition px-2">GITHUB</a>
                     </nav>
                 </div>
             </header>
