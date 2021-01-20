@@ -9,7 +9,7 @@ import nBengal from './style/images/nBengal.png';
 
 function Portfolio(){
     return(
-        <div class="bg-black min-w-full min-h-screen flex flex-col">
+        <div class="bg-black min-w-full min-h-screen flex flex-col" id="Portfolio">
             <div class="min-w-full flex justify-evenly mb-20 mt-20">
                 <h2 class="text-pink text-6xl font-bold">PORTFOLIO</h2>
             </div>
