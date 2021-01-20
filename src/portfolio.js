@@ -83,16 +83,16 @@ function Portfolio(){
 class PortfolioItem extends React.Component{
     render(){
         return(
-            <div class="container mx-auto bg-gray-100 py-10 flex justify-center">
-                <div class="bg-white w-80 shadow-lg cursor-pointer rounded transform hover:scale-105 duration-300 ease-in-out">
+            <div class="container mx-auto py-10 flex justify-center">
+                <div class="bg-darkgray w-80 shadow-lg cursor-pointer rounded transform hover:scale-105 duration-300 ease-in-out">
             <div class="">
                 <img src={this.props.imageURL} alt="" class="rounded-t"></img>
             </div>
             <div class="p-4">
-            <h2 class="text-2xl uppercase">{this.props.title}</h2>
-            <p class="font-light text-gray-500 text-lg my-2">{this.props.techStack}</p>
-            <p>{this.props.description}</p>
-            <a href={this.props.codeURL} class="block bg-gray-300 py-2 px-2 text-gray-600 text-center rounded shadow-lg uppercase font-light mt-6 hover:bg-gray-400 hover:text-pink duration-300 ease-in-out">{this.props.buttonText || "View on Github"}</a>
+            <h2 class="text-2xl uppercase text-midgray ">{this.props.title}</h2>
+            <p class="font-light text-gray text-lg my-2">{this.props.techStack}</p>
+            <p class="text-gray">{this.props.description}</p>
+            <a href={this.props.codeURL} class="block bg-gray-300 py-2 px-2 text-gray text-center rounded shadow-lg uppercase font-light mt-6 hover:bg-gray-400 hover:text-pink duration-300 ease-in-out">{this.props.buttonText || "View on Github"}</a>
             </div>
             </div>
         </div>
