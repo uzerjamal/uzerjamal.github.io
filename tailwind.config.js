@@ -6,7 +6,8 @@ module.exports = {
       white: '#FFF',
       black: '#030c17',
       blue: '#072141',
-      pink: '#ff4d5a'
+      pink: '#ff4d5a',
+      gray: '#9ca3af'
     },
     extend: {
       backgroundImage: theme => ({
